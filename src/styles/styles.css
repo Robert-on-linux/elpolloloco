@@ -1,0 +1,342 @@
+body {
+    overflow: hidden;
+    position: relative;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/src/img/dessert.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Zabras';
+    font-style: normal;
+}
+
+body::before {
+    /* content: ""; */
+    display: block;
+    position: absolute;
+    
+    top: 0;
+    width: 100vw; 
+    height: 100vh; 
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+canvas {
+    background-color: black;
+    display: block;
+    /* box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 80%); */
+}
+
+h1 {
+    color: white;
+    letter-spacing: 6px;
+    font-size: 4em;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+.fullscreen {
+    position: relative;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.titlecl {
+    text-align: center;
+}
+
+.noradiuscl {
+    border-radius: 0px;
+}
+
+.radiuscl {
+    border-radius: 15px;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.startscreencl {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.startimg {
+    width: 720px;
+    height: 480px;
+    /* width: 100%;
+    height: 100%; */
+}
+
+/* Play Button */
+
+.buttonPlaycl {
+    position: relative;
+    left: 0px;
+    top: 240px;
+    width: 50px;
+    /* bottom: 15px; */
+    /* transform: translate(0%,570%); */
+    padding: 5px 20px;
+    box-shadow: 0px 0px 2px 2px black;
+    border-radius: 10px;
+    background-color: rgb(255, 196, 2);
+    font-size: 20px;
+    z-index: 1;
+}
+
+.buttonPlaycl:hover {
+    scale: 1.2;
+}
+
+
+.buttonPlaycl button {
+    font-family: 'Zabras';
+    font-size: 24px;
+    border: none;
+    color: black;
+    background: rgb(255, 196, 2);
+}
+
+/* Info Button */
+
+.buttonInfocl {
+    position: relative;
+    top: -200px;
+    left: -290px;
+    width: 20px;
+    text-align: center;
+    padding: 5px 5px;
+    box-shadow: 0px 0px 2px 2px black;
+    border-radius: 10px;
+    background-color: rgb(255, 196, 2);
+    z-index: 1;
+}
+
+.buttonInfocl:hover {
+    scale: 1.2;
+}
+
+.buttonInfocl button {
+    align-items: center;
+    font-family: 'Zabras';
+    font-size: 24px;
+    border: none;
+    color: black;
+    background: rgb(255, 196, 2);
+}
+
+/* InfoScreen */
+
+.infoscreencl img {
+    padding-left: 20px;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+}
+
+/* INFO-Screen */
+
+.infoscreencl h2 {
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+.infoscreencl p {
+    display: flex;
+    align-items: center;
+}
+
+.infoscreencl {
+    /* position: absolute; */
+    top: 0px;
+    left: 0px;
+    width: 360px;
+    background-image: url('/src/img/dessert.png');
+    padding: 5px 20px;
+    box-shadow: 0px 0px 3px 3px black;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    font-size: 24px;
+    color: black;
+    position: relative;
+    z-index: 10;
+}
+
+/* ESC-Button */
+
+.buttonESCcl {
+    position: relative;
+    top: -54px;
+    left: 300px;
+    height: 34px;
+    width: 48px;
+    text-align: center;
+    padding-top: 8px;
+    box-shadow: 0px 0px 2px 2px black;
+    border-radius: 10px;
+    background-color: rgb(255, 196, 2);
+    z-index: 1;
+}
+
+.buttonESCcl:hover {
+    scale: 1.2;
+}
+
+.buttonESCcl button {
+    /* align-items: center; */
+    font-family: 'Zabras';
+    font-size: 24px;
+    border: none;
+
+    border-radius: 10px;
+    color: black;
+    background: rgb(255, 196, 2);
+}
+
+/* ------- Game Over */
+
+.gameovercl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.gameovercl img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* Return button  */
+
+.buttonreturncl {
+    position: relative;
+    top: 174px;
+    left: -433px;
+    height: 32px;
+    /* width: 122px;  */
+    text-align: center;
+    padding-top: 8px;
+    box-shadow: 0px 0px 2px 2px black;
+    border-radius: 10px;
+    background-color: rgb(255, 196, 2);
+    z-index: 4;
+}
+
+.buttonreturncl:hover {
+    scale: 1.2;
+}
+
+.buttonreturncl button {
+    /* align-items: center; */
+    font-family: 'Zabras';
+    font-size: 24px;
+    border: none;
+    width: 122px;
+    border-radius: 10px;
+    color: black;
+    background: rgb(255, 196, 2);
+}
+
+/* Button Fullscreen */
+
+.buttonFullscreencl {
+    position: relative;
+    top: 168px;
+    left: 350px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    padding: 5px 5px;
+    box-shadow: 0px 0px 2px 2px black;
+    border-radius: 10px;
+    background-color: rgb(255, 196, 2);
+    z-index: 1;
+}
+
+.buttonFullscreencl:hover {
+    scale: 1.2;
+}
+
+.buttonFullscreencl img {
+    width: 24px;
+    height: 24px;
+    margin-top: 2px;
+
+}
+
+.buttonFullscreencl button {
+    align-items: center;
+    font-family: 'Zabras';
+    font-size: 24px;
+    border: none;
+    color: black;
+    background: rgb(255, 196, 2);
+}
+
+
+
+
+@media only screen and (max-width: 760px) {
+
+    .contentcl {
+        width: 100%;
+    }
+
+    canvas {
+        width: 100%;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .startscreencl {
+        width: 100%;
+    }
+    .startimg {
+        object-fit: fill;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    canvas {
+        height: 100vh;
+
+    }
+}
+
+@media only screen and (max-width: 350px) {
+
+    body {
+        display: none;
+    }
+
+}

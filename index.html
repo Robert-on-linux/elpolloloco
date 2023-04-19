@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Pollo Loco</title>
+  <link rel="stylesheet" type="text/css" href="/src/styles/styles.css">
+  <link rel="stylesheet" type="text/css" href="/src/styles/font.css">
+  <script language="JavaScript" type="text/javascript" src="/src/models/keyboard.class.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/models/drawable-object.class.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/models/moveable-object.class.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/models/throwable-object.class.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/models/background-object.class.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/models/collectbottle.class.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/models/collectcoin.class.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/models/status-bar.class.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/models/status-bar-bottle.class.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/models/status-bar-coin.class.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/models/status-bar-endboss-life.class.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/models/status-bar-endboss.class.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/models/character.class.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/models/chicken.class.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/models/smallchicken.class.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/models/endboss.class.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/models/cloud.class.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/models/world.class.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/models/level.class.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/levels/level1.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/js/game.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/src/js/audio.js"></script>
+
+  <!-- <script language="JavaScript" type="text/javascript" src="/src/js/main.js"></script> -->
+
+  <!-- <link rel="icon" type="image/svg+xml" href="/src/img/icons/favicon.svg" sizes="any"> -->
+  <link rel="icon" type="image/png" href="/src/img/icons/favicon.png">
+  <!-- favicon.ico im Stammverzeichnis, aber nicht verlinkt -->
+</head>
+
+<body>
+
+  <div id="fullscreenId" class="contentcl radiuscl">
+    <!-- <h1 id="title" class="titlecl">El pollo loco</h1> -->
+    <canvas id="playscreenId" width="720px" height="480px" class="canvascl d-none"></canvas>
+    <div id="startcreenId" class="startscreencl ">
+      <img id="startimgId" class="startimg radiuscl" src="/src/img/9_intro_outro_screens/start/startscreen_1.png"
+        title="Startscreen" />
+    </div>
+
+    <div id="buttonPlayId" class="buttonPlaycl">
+      <button onclick="init()" class="cursorPointer">Play</button>
+    </div>
+
+    <div id="buttonInfoId" class="buttonInfocl">
+      <button onclick="infofield()" class="cursorPointer">i</button>
+    </div>
+
+    <div id="buttonFullscreenId" class="buttonFullscreencl">
+      <button onclick="changeScreen()" class="cursorPointer" type="submit" title="Toggle Screen">
+        <img id="fullscreenButtonId" class="fullscreenButtoncl" src="/src/img/icons/fullscreen-enter-64.png"
+          title="Fullscreen"></button>
+    </div>
+
+    <div id="infoscreenId" class="infoscreencl d-none">
+      <h2>Info Page</h2>
+      <p>to move char left press: <img src="/src/img/icons/left-64.png" title="Arrow left"></p>
+      <p>to move char right press: <img src="/src/img/icons/right-64.png" title="Arrow right"></p>
+      <p>to make char jump press: <img src="/src/img/icons/myspace-64.png" title="Key SPACE"></p>
+      <p>to throw bottle: <img src="/src/img/icons/letter-d-64.png" title="key d"></p>
+      <p>to mute game: <img src="/src/img/icons/letter-m-64.png" title="Key m"></p>
+      <p></p>
+      <p>to escape the game </p>
+      <p>and this page press: </p>
+      <div id="buttonESCId" class="buttonESCcl">
+        <button onclick="closeinfofield()" class="cursorPointer">ESC</button>
+      </div>
+    </div>
+
+    <div id="gameoverId" class="d-none gameovercl">
+      <img id="gameoverimgId" src="/src/img/9_intro_outro_screens/game_over/oh_no_you_lost!.png"
+        alt="screen when the game is lost" />
+      <div id="aftergamebtnId" class="buttonreturncl">
+        <button onclick="returntostart()" class="cursorPointer">Back To Start
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Control buttons -->
+
+    <div id="mobileActionButtons" class="d-none">
+      <div id="mobileWalk">
+        <button id="btnLeft">
+          <img class="icon" src="/src/img/icons/arrow-left-black.png" alt="walking left" />
+        </button>
+        <button id="btnRight">
+          <img class="icon" src="/src/img/icons/arrow-right-black.png" alt="walking right" />
+        </button>
+      </div>
+      <div id="mobileActions">
+        <button id="btnUp">
+          <img class="icon" src="/src/img/icons/arrow-up-black.png" alt="jumping" />
+        </button>
+        <button id="btnBottle">
+          <img class="icon" src="/src/img/icons/bottle-black.png" alt="throwing bottles" />
+        </button>
+      </div>
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>
