@@ -5,7 +5,7 @@ class Cloud extends MoveableObject {
     width = 500;
 
     IMAGES_MOVING = [
-        '/src/img/5_background/layers/4_clouds/1.png'
+        './src/img/5_background/layers/4_clouds/1.png'
     ]
 
     constructor(x) {

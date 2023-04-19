@@ -19,47 +19,47 @@ class Endboss extends MoveableObject {
     powerOfPushing = 50;
 
     IMAGES_WALKING = [
-        '/src/img/4_enemie_boss_chicken/2_alert/G5.png',
-        '/src/img/4_enemie_boss_chicken/2_alert/G6.png',
-        '/src/img/4_enemie_boss_chicken/2_alert/G7.png',
-        '/src/img/4_enemie_boss_chicken/2_alert/G8.png',
-        '/src/img/4_enemie_boss_chicken/2_alert/G9.png',
-        '/src/img/4_enemie_boss_chicken/2_alert/G10.png',
-        '/src/img/4_enemie_boss_chicken/2_alert/G11.png',
-        '/src/img/4_enemie_boss_chicken/2_alert/G12.png'
+        './src/img/4_enemie_boss_chicken/2_alert/G5.png',
+        './src/img/4_enemie_boss_chicken/2_alert/G6.png',
+        './src/img/4_enemie_boss_chicken/2_alert/G7.png',
+        './src/img/4_enemie_boss_chicken/2_alert/G8.png',
+        './src/img/4_enemie_boss_chicken/2_alert/G9.png',
+        './src/img/4_enemie_boss_chicken/2_alert/G10.png',
+        './src/img/4_enemie_boss_chicken/2_alert/G11.png',
+        './src/img/4_enemie_boss_chicken/2_alert/G12.png'
     ];
 
     IMAGES_ALERT = [
-        '/src/img/4_enemie_boss_chicken/2_alert/G5.png',
-        '/src/img/4_enemie_boss_chicken/2_alert/G6.png',
-        '/src/img/4_enemie_boss_chicken/2_alert/G7.png',
-        '/src/img/4_enemie_boss_chicken/2_alert/G8.png',
-        '/src/img/4_enemie_boss_chicken/2_alert/G9.png',
-        '/src/img/4_enemie_boss_chicken/2_alert/G10.png',
-        '/src/img/4_enemie_boss_chicken/2_alert/G11.png',
-        '/src/img/4_enemie_boss_chicken/2_alert/G12.png'
+        './src/img/4_enemie_boss_chicken/2_alert/G5.png',
+        './src/img/4_enemie_boss_chicken/2_alert/G6.png',
+        './src/img/4_enemie_boss_chicken/2_alert/G7.png',
+        './src/img/4_enemie_boss_chicken/2_alert/G8.png',
+        './src/img/4_enemie_boss_chicken/2_alert/G9.png',
+        './src/img/4_enemie_boss_chicken/2_alert/G10.png',
+        './src/img/4_enemie_boss_chicken/2_alert/G11.png',
+        './src/img/4_enemie_boss_chicken/2_alert/G12.png'
     ];
 
     IMAGES_HURTING = [
-        '/src/img/4_enemie_boss_chicken/4_hurt/G21.png',
-        '/src/img/4_enemie_boss_chicken/4_hurt/G22.png',
-        '/src/img/4_enemie_boss_chicken/4_hurt/G23.png'
+        './src/img/4_enemie_boss_chicken/4_hurt/G21.png',
+        './src/img/4_enemie_boss_chicken/4_hurt/G22.png',
+        './src/img/4_enemie_boss_chicken/4_hurt/G23.png'
     ];
 
     IMAGES_DEAD = [
-        '/src/img/4_enemie_boss_chicken/5_dead/G24.png',
-        '/src/img/4_enemie_boss_chicken/5_dead/G25.png',
-        '/src/img/4_enemie_boss_chicken/5_dead/G26.png'
+        './src/img/4_enemie_boss_chicken/5_dead/G24.png',
+        './src/img/4_enemie_boss_chicken/5_dead/G25.png',
+        './src/img/4_enemie_boss_chicken/5_dead/G26.png'
     ];
     IMAGES_ATTACK = [
-        '/src/img/4_enemie_boss_chicken/3_attack/G13.png',
-        '/src/img/4_enemie_boss_chicken/3_attack/G14.png',
-        '/src/img/4_enemie_boss_chicken/3_attack/G15.png',
-        '/src/img/4_enemie_boss_chicken/3_attack/G16.png',
-        '/src/img/4_enemie_boss_chicken/3_attack/G17.png',
-        '/src/img/4_enemie_boss_chicken/3_attack/G18.png',
-        '/src/img/4_enemie_boss_chicken/3_attack/G19.png',
-        '/src/img/4_enemie_boss_chicken/3_attack/G20.png'
+        './src/img/4_enemie_boss_chicken/3_attack/G13.png',
+        './src/img/4_enemie_boss_chicken/3_attack/G14.png',
+        './src/img/4_enemie_boss_chicken/3_attack/G15.png',
+        './src/img/4_enemie_boss_chicken/3_attack/G16.png',
+        './src/img/4_enemie_boss_chicken/3_attack/G17.png',
+        './src/img/4_enemie_boss_chicken/3_attack/G18.png',
+        './src/img/4_enemie_boss_chicken/3_attack/G19.png',
+        './src/img/4_enemie_boss_chicken/3_attack/G20.png'
     ];
 
 

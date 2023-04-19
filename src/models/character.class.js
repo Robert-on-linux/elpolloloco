@@ -21,33 +21,33 @@ class Character extends MoveableObject {
     getsPushed = false;
     world;
     
-    walking_sound = new Audio('/src/audio/running.mp3');
+    walking_sound = new Audio('./src/audio/running.mp3');
     currentImage = 0;
 
     IMAGE_STANDING = [
-        '/src/img/2_character_pepe/1_idle/idle/I-1.png'
+        './src/img/2_character_pepe/1_idle/idle/I-1.png'
     ];
 
     IMAGES_IDLE = [
-        '/src/img/2_character_pepe/1_idle/long_idle/I-11.png',
-        '/src/img/2_character_pepe/1_idle/long_idle/I-12.png',
-        '/src/img/2_character_pepe/1_idle/long_idle/I-13.png',
-        '/src/img/2_character_pepe/1_idle/long_idle/I-14.png',
-        '/src/img/2_character_pepe/1_idle/long_idle/I-15.png',
-        '/src/img/2_character_pepe/1_idle/long_idle/I-16.png',
-        '/src/img/2_character_pepe/1_idle/long_idle/I-17.png',
-        '/src/img/2_character_pepe/1_idle/long_idle/I-18.png',
-        '/src/img/2_character_pepe/1_idle/long_idle/I-19.png',
-        '/src/img/2_character_pepe/1_idle/long_idle/I-20.png'
+        './src/img/2_character_pepe/1_idle/long_idle/I-11.png',
+        './src/img/2_character_pepe/1_idle/long_idle/I-12.png',
+        './src/img/2_character_pepe/1_idle/long_idle/I-13.png',
+        './src/img/2_character_pepe/1_idle/long_idle/I-14.png',
+        './src/img/2_character_pepe/1_idle/long_idle/I-15.png',
+        './src/img/2_character_pepe/1_idle/long_idle/I-16.png',
+        './src/img/2_character_pepe/1_idle/long_idle/I-17.png',
+        './src/img/2_character_pepe/1_idle/long_idle/I-18.png',
+        './src/img/2_character_pepe/1_idle/long_idle/I-19.png',
+        './src/img/2_character_pepe/1_idle/long_idle/I-20.png'
     ];
 
     IMAGES_WALKING = [
-        '/src/img/2_character_pepe/2_walk/W-21.png',
-        '/src/img/2_character_pepe/2_walk/W-22.png',
-        '/src/img/2_character_pepe/2_walk/W-23.png',
-        '/src/img/2_character_pepe/2_walk/W-24.png',
-        '/src/img/2_character_pepe/2_walk/W-25.png',
-        '/src/img/2_character_pepe/2_walk/W-26.png'
+        './src/img/2_character_pepe/2_walk/W-21.png',
+        './src/img/2_character_pepe/2_walk/W-22.png',
+        './src/img/2_character_pepe/2_walk/W-23.png',
+        './src/img/2_character_pepe/2_walk/W-24.png',
+        './src/img/2_character_pepe/2_walk/W-25.png',
+        './src/img/2_character_pepe/2_walk/W-26.png'
     ];
 
     IMAGES_JUMPING = [

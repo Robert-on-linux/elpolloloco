@@ -9,12 +9,12 @@ class StatusBarCoin extends DrawableObject {
     percentage = 0;
 
     IMAGES_STATUS_COIN = [
-      '/src/img/7_statusbars/1_statusbar/1_statusbar_coin/blue/0.png',
-      '/src/img/7_statusbars/1_statusbar/1_statusbar_coin/blue/20.png',
-      '/src/img/7_statusbars/1_statusbar/1_statusbar_coin/blue/40.png',
-      '/src/img/7_statusbars/1_statusbar/1_statusbar_coin/blue/60.png',
-      '/src/img/7_statusbars/1_statusbar/1_statusbar_coin/blue/80.png',
-      '/src/img/7_statusbars/1_statusbar/1_statusbar_coin/blue/100.png'
+      './src/img/7_statusbars/1_statusbar/1_statusbar_coin/blue/0.png',
+      './src/img/7_statusbars/1_statusbar/1_statusbar_coin/blue/20.png',
+      './src/img/7_statusbars/1_statusbar/1_statusbar_coin/blue/40.png',
+      './src/img/7_statusbars/1_statusbar/1_statusbar_coin/blue/60.png',
+      './src/img/7_statusbars/1_statusbar/1_statusbar_coin/blue/80.png',
+      './src/img/7_statusbars/1_statusbar/1_statusbar_coin/blue/100.png'
     ];
   
     constructor() {

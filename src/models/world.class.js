@@ -15,7 +15,7 @@ class World {
   statusBarEndbossLife = new StatusBarEndbossLife();
   throwableObjects = [];
 
-  // bottlesplash_sound = new Audio('/src/audio/bottle.mp3');
+  // bottlesplash_sound = new Audio('./src/audio/bottle.mp3');
 
   constructor(canvas, keyboard, currentLevel) {
     this.ctx = canvas.getContext('2d');
@@ -377,7 +377,7 @@ class World {
   showGameLost() {
     gameIsOver = true;
     document.getElementById("gameoverimgId").src =
-      "/src/img/9_intro_outro_screens/game_over/oh_no_you_lost!.png";
+      "./src/img/9_intro_outro_screens/game_over/oh_no_you_lost!.png";
     pauseAudio("endboss");
     playAudio("gameLost");
   }
@@ -389,7 +389,7 @@ class World {
   showGameWon() {
     gameIsOver = true;
     document.getElementById("gameoverimgId").src =
-      "/src/img/9_intro_outro_screens/game_over/game_over!.png";
+      "./src/img/9_intro_outro_screens/game_over/game_over!.png";
     pauseAudio("endboss");
     playAudio("gameWon");
   }

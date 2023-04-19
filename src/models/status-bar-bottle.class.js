@@ -8,16 +8,16 @@ class StatusBarBottle extends DrawableObject {
   percentage = 0;
 
   IMAGES_STATUS_BOTTLE = [
-    '/src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/0.png',
-    '/src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/20.png',
-    '/src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/20.png',
-    '/src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/40.png',
-    '/src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/40.png',
-    '/src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/60.png',
-    '/src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/60.png',
-    '/src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/80.png',
-    '/src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/80.png',
-    '/src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/100.png'
+    './src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/0.png',
+    './src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/20.png',
+    './src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/20.png',
+    './src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/40.png',
+    './src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/40.png',
+    './src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/60.png',
+    './src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/60.png',
+    './src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/80.png',
+    './src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/80.png',
+    './src/img/7_statusbars/1_statusbar/3_statusbar_bottle/orange/100.png'
   ];
 
   constructor() {

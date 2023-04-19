@@ -11,18 +11,18 @@ class SmallChicken extends MoveableObject {
   height = 30;
 
   IMAGES_DEAD = [
-    '/src/img/3_enemies_chicken/chicken_small/2_dead/dead.png',
-    '/src/img/3_enemies_chicken/chicken_small/2_dead/dead.png'
+    './src/img/3_enemies_chicken/chicken_small/2_dead/dead.png',
+    './src/img/3_enemies_chicken/chicken_small/2_dead/dead.png'
   ];
 
   IMAGES_WALKING = [
-    '/src/img/3_enemies_chicken/chicken_small/1_walk/1_w.png',
-    '/src/img/3_enemies_chicken/chicken_small/1_walk/2_w.png',
-    '/src/img/3_enemies_chicken/chicken_small/1_walk/3_w.png'
+    './src/img/3_enemies_chicken/chicken_small/1_walk/1_w.png',
+    './src/img/3_enemies_chicken/chicken_small/1_walk/2_w.png',
+    './src/img/3_enemies_chicken/chicken_small/1_walk/3_w.png'
   ];
 
   constructor(speedY) {
-    super().loadImage('/src/img/3_enemies_chicken/chicken_normal/1_walk/1_w.png');
+    super().loadImage('./src/img/3_enemies_chicken/chicken_normal/1_walk/1_w.png');
     this.loadImages(this.IMAGES_WALKING);
     this.loadImages(this.IMAGES_DEAD);
     this.animate();

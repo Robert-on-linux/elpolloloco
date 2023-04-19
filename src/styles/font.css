@@ -3,8 +3,8 @@
 
 @font-face {
 	font-family: "Zabras";
-	src : url(/src/fonts/Zabars/Zabars.ttf) format("truetype"),
-		  url(/src/fonts/Zabars/Zabars.woff2) format("woff2");
+	src : url(../fonts/Zabars/Zabars.ttf) format("truetype"),
+		  url(../fonts/Zabars/Zabars.woff2) format("woff2");
 	font-style: normal; /* normal oder italic oder oblique */
 	font-weight: 400 ; /* 400 für normal, 700 für bold */
 }

@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('/src/img/dessert.png');
+    background-image: url('../img/dessert.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -171,7 +171,7 @@ h1 {
     top: 0px;
     left: 0px;
     width: 360px;
-    background-image: url('/src/img/dessert.png');
+    background-image: url("../img/dessert.png");
     padding: 5px 20px;
     box-shadow: 0px 0px 3px 3px black;
     border-radius: 10px;

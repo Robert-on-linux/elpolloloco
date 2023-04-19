@@ -8,7 +8,7 @@ class StatusBarEndbossLife extends DrawableObject {
     percentage = 100;
     
     IMAGES_STATUS_LIFE = [
-      '/src/img/7_statusbars/3_icons/icon_health_endboss.png'
+      './src/img/7_statusbars/3_icons/icon_health_endboss.png'
     ];
   
     constructor() {

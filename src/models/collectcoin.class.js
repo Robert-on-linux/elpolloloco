@@ -12,12 +12,12 @@ class CollectCoin extends MoveableObject {
     height = 120;
     
     IMAGES_COIN = [
-        '/src/img/8_coin/coin_1.png', 
-        '/src/img/8_coin/coin_2.png'
+        './src/img/8_coin/coin_1.png', 
+        './src/img/8_coin/coin_2.png'
     ];
   
     constructor(x,y) {
-      super().loadImage('/src/img/8_coin/coin_1.png');
+      super().loadImage('./src/img/8_coin/coin_1.png');
       this.loadImages(this.IMAGES_COIN);
       this.animate();
       this.x = x;

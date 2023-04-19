@@ -41,40 +41,40 @@ function createClouds() {
 
 function createBackgroundObjects() {
     return [
-        new BackgroundObject('/src/img/5_background/layers/air.png', -719),
-        new BackgroundObject('/src/img/5_background/layers/3_third_layer/2.png', -719),
-        new BackgroundObject('/src/img/5_background/layers/2_second_layer/2.png', -719),
-        new BackgroundObject('/src/img/5_background/layers/1_first_layer/2.png', -719),
+        new BackgroundObject('./src/img/5_background/layers/air.png', -719),
+        new BackgroundObject('./src/img/5_background/layers/3_third_layer/2.png', -719),
+        new BackgroundObject('./src/img/5_background/layers/2_second_layer/2.png', -719),
+        new BackgroundObject('./src/img/5_background/layers/1_first_layer/2.png', -719),
 
-        new BackgroundObject('/src/img/5_background/layers/air.png', 0),
-        new BackgroundObject('/src/img/5_background/layers/3_third_layer/1.png', 0),
-        new BackgroundObject('/src/img/5_background/layers/2_second_layer/1.png', 0),
-        new BackgroundObject('/src/img/5_background/layers/1_first_layer/1.png', 0),
+        new BackgroundObject('./src/img/5_background/layers/air.png', 0),
+        new BackgroundObject('./src/img/5_background/layers/3_third_layer/1.png', 0),
+        new BackgroundObject('./src/img/5_background/layers/2_second_layer/1.png', 0),
+        new BackgroundObject('./src/img/5_background/layers/1_first_layer/1.png', 0),
 
-        new BackgroundObject('/src/img/5_background/layers/air.png', 719),
-        new BackgroundObject('/src/img/5_background/layers/3_third_layer/2.png', 719),
-        new BackgroundObject('/src/img/5_background/layers/2_second_layer/2.png', 719),
-        new BackgroundObject('/src/img/5_background/layers/1_first_layer/2.png', 719),
+        new BackgroundObject('./src/img/5_background/layers/air.png', 719),
+        new BackgroundObject('./src/img/5_background/layers/3_third_layer/2.png', 719),
+        new BackgroundObject('./src/img/5_background/layers/2_second_layer/2.png', 719),
+        new BackgroundObject('./src/img/5_background/layers/1_first_layer/2.png', 719),
 
-        new BackgroundObject('/src/img/5_background/layers/air.png', 1438),
-        new BackgroundObject('/src/img/5_background/layers/3_third_layer/1.png', 1438),
-        new BackgroundObject('/src/img/5_background/layers/2_second_layer/1.png', 1438),
-        new BackgroundObject('/src/img/5_background/layers/1_first_layer/1.png', 1438),
+        new BackgroundObject('./src/img/5_background/layers/air.png', 1438),
+        new BackgroundObject('./src/img/5_background/layers/3_third_layer/1.png', 1438),
+        new BackgroundObject('./src/img/5_background/layers/2_second_layer/1.png', 1438),
+        new BackgroundObject('./src/img/5_background/layers/1_first_layer/1.png', 1438),
 
-        new BackgroundObject('/src/img/5_background/layers/air.png', 2157),
-        new BackgroundObject('/src/img/5_background/layers/3_third_layer/2.png', 2157),
-        new BackgroundObject('/src/img/5_background/layers/2_second_layer/2.png', 2157),
-        new BackgroundObject('/src/img/5_background/layers/1_first_layer/2.png', 2157),
+        new BackgroundObject('./src/img/5_background/layers/air.png', 2157),
+        new BackgroundObject('./src/img/5_background/layers/3_third_layer/2.png', 2157),
+        new BackgroundObject('./src/img/5_background/layers/2_second_layer/2.png', 2157),
+        new BackgroundObject('./src/img/5_background/layers/1_first_layer/2.png', 2157),
 
-        new BackgroundObject('/src/img/5_background/layers/air.png', 2876),
-        new BackgroundObject('/src/img/5_background/layers/3_third_layer/1.png', 2876),
-        new BackgroundObject('/src/img/5_background/layers/2_second_layer/1.png', 2876),
-        new BackgroundObject('/src/img/5_background/layers/1_first_layer/1.png', 2876),
+        new BackgroundObject('./src/img/5_background/layers/air.png', 2876),
+        new BackgroundObject('./src/img/5_background/layers/3_third_layer/1.png', 2876),
+        new BackgroundObject('./src/img/5_background/layers/2_second_layer/1.png', 2876),
+        new BackgroundObject('./src/img/5_background/layers/1_first_layer/1.png', 2876),
 
-        new BackgroundObject('/src/img/5_background/layers/air.png', 3595),
-        new BackgroundObject('/src/img/5_background/layers/3_third_layer/2.png', 3595),
-        new BackgroundObject('/src/img/5_background/layers/2_second_layer/2.png', 3595),
-        new BackgroundObject('/src/img/5_background/layers/1_first_layer/2.png', 3595),
+        new BackgroundObject('./src/img/5_background/layers/air.png', 3595),
+        new BackgroundObject('./src/img/5_background/layers/3_third_layer/2.png', 3595),
+        new BackgroundObject('./src/img/5_background/layers/2_second_layer/2.png', 3595),
+        new BackgroundObject('./src/img/5_background/layers/1_first_layer/2.png', 3595),
     ];
 }
 
@@ -82,47 +82,47 @@ function createBackgroundObjects() {
 function createBottles() {
     return [
         new Collectbottle(
-            '/src/img/6_salsa_bottle/2_salsa_bottle_on_ground.png',
+            './src/img/6_salsa_bottle/2_salsa_bottle_on_ground.png',
             1300,
             375
         ),
         new Collectbottle(
-            '/src/img/6_salsa_bottle/2_salsa_bottle_on_ground.png',
+            './src/img/6_salsa_bottle/2_salsa_bottle_on_ground.png',
             1600,
             375
         ),
         new Collectbottle(
-            '/src/img/6_salsa_bottle/2_salsa_bottle_on_ground.png',
+            './src/img/6_salsa_bottle/2_salsa_bottle_on_ground.png',
             1900,
             375
         ),
         new Collectbottle(
-            '/src/img/6_salsa_bottle/2_salsa_bottle_on_ground.png',
+            './src/img/6_salsa_bottle/2_salsa_bottle_on_ground.png',
             2100,
             375
         ),
         new Collectbottle(
-            '/src/img/6_salsa_bottle/2_salsa_bottle_on_ground.png',
+            './src/img/6_salsa_bottle/2_salsa_bottle_on_ground.png',
             2300,
             375
         ),
         new Collectbottle(
-            '/src/img/6_salsa_bottle/2_salsa_bottle_on_ground.png',
+            './src/img/6_salsa_bottle/2_salsa_bottle_on_ground.png',
             2500,
             375
         ),
         new Collectbottle(
-            '/src/img/6_salsa_bottle/2_salsa_bottle_on_ground.png',
+            './src/img/6_salsa_bottle/2_salsa_bottle_on_ground.png',
             2800,
             375
         ),
         new Collectbottle(
-            '/src/img/6_salsa_bottle/2_salsa_bottle_on_ground.png',
+            './src/img/6_salsa_bottle/2_salsa_bottle_on_ground.png',
             3100,
             375
         ),
         new Collectbottle(
-            '/src/img/6_salsa_bottle/2_salsa_bottle_on_ground.png',
+            './src/img/6_salsa_bottle/2_salsa_bottle_on_ground.png',
             3400,
             375
         )
